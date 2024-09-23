@@ -1,0 +1,13 @@
+-----propriété d'une classe = ce sont les données de la classe exemple: public int $maPropriété;
+-----méthode = function d'une classe , exemple => public function maMethode(): void 
+
+----mettre un \ pour une rapiditée exemple :
+<?php
+namespace MonNamespace;
+class MaClasse {
+    public function maFonction() {
+        return \strlen('Bonjour');
+    }
+}
+<?php
+$chaine = \trim(' Bonjour ');
