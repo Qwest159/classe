@@ -4,7 +4,6 @@ class Nourriture
     private string $nom;
     private int $quantite;
 
-
     public function __construct(string $nom, int $quantite)
     {
         $this->nom = $nom;

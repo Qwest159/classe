@@ -3,7 +3,6 @@ require_once  "Nourriture.php";
 
 class Animal
 {
-
     private string $nom;
     private int $age;
     private string $espece;
